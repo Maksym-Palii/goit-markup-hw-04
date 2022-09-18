@@ -385,7 +385,7 @@ margin-bottom: 16px;
 
 .bottom-container{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 70px;
 }
 
@@ -428,7 +428,7 @@ margin-bottom: 16px;
 }
 
 .bottom-title{
-margin-bottom: 20px;
+    margin-bottom: 20px;
 
     font-size: 14px;
     line-height: 1.14;
@@ -515,7 +515,8 @@ margin-bottom: 20px;
    
 }
 
-.portfolio-link:hover{
+.portfolio-link:hover,
+.portfolio-link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
